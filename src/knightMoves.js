@@ -18,7 +18,6 @@ export default function knightMoves(
       .reverse()
       .concat([endPosition]);
     console.log(`Number of moves it took was: ${allMoves.length - 1}`);
-    let write = allMoves.length;
     for (let i = 0; i <= allMoves.length - 1; i++) {
       if (i === 0) {
         console.log(`Start at: [${allMoves[i]}]`);
