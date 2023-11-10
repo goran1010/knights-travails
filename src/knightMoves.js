@@ -28,7 +28,7 @@ export default function knightMoves(
         console.log("Done!");
         continue;
       }
-      console.log(`Move number ${i} is: [${allMoves[i].reverse()}]`);
+      console.log(`Move number ${i} is: [${allMoves[i]}]`);
     }
     return;
   }
